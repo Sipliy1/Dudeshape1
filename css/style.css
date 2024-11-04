@@ -102,13 +102,16 @@ body {
 .top_container .main_logo .block2 .main_logo_photo{
     max-width: 796px;
 }
+.top_container .main_logo .block2 {
+    position: relative;
+}
 .top_container .main_logo .block2 .str {
     position: absolute;
     z-index: 1;
     width: 145px;
     height: 138px;
-    top: 616px;
-    left: 818px;
+    top: 477px;
+    left: 0px;
 }
 /* MAIN */
 .companis {
@@ -154,11 +157,16 @@ body {
     font-weight: 500;
     line-height: 30px;
 }
+.box2 {
+    display: flex;
+}
+.box2 .items {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
 .box2 .items img {
     max-width: 550px;
-}
-.box2 .item1 {
-    margin-right: 100px;
 }
 .box2 .item1,
 .box2 .item2 {
