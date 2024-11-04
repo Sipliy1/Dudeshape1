@@ -8,15 +8,22 @@
 320 - 375
 */
 @media screen and (max-width: 1440px) {
-    .top_container .main_logo .block2 .str {
-        top: 616px;
-        left: 600px;
-    }
     .advertising .photo .left {
         margin-right: 50px;
     }
     footer .line {
         margin-left: 128px;
+    }
+}
+@media screen and (max-width: 1317px) {
+    .box2 .items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .box2 .item1 {
+        margin-bottom: 10px;
     }
 }
 @media screen and (max-width: 1199px) {
@@ -33,10 +40,6 @@
     }
     .box1 p {
         margin-bottom: 10px;
-    }
-    .box2 .items {
-        display: block;
-        margin: 0 220px;
     }
     .box2 .item1 {
         margin: 0px 0px 20px 0px;
@@ -90,6 +93,21 @@
         left: 332px;
     }
 }
+@media screen and (max-width: 1049px) {
+    .top_container .main_logo {
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top_container .main_logo .block2 .str {
+        top: 0px;
+        left: 300px;
+    }
+    .top_container .main_logo .block2 .main_logo_photo {
+        max-width: 100%;
+    }
+}
 @media screen and (max-width: 767px) {
     .top_container .top .menu a {
         margin: 2px 10px;
@@ -100,26 +118,41 @@
     .top_container .main_logo .block1 h1 {
         margin-top: 0;
     }
-    .top_container .main_logo {
-        padding-bottom: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
     .top_container .main_logo .block2 .main_logo_photo {
-        margin-left: 100px;
-        max-width: 660px;
+        max-width: 100%;
     }
     .top_container .main_logo .block2 .str {
-        top: 500px;
-        left: 620px;
+        top: 0px;
+        left: 300px;
     }
     .companis .name img {
-        width: 75px;
+        width: 14%;
     }
     .box2 {
         display: flex;
         justify-content: center;
+    }
+    .advertising .photo .right img{
+        max-width: 100%;
+    }
+    .women .text_hoto .text .p1{
+        max-width: 575px;
+    }
+    .designers .women .text_hoto .scob1 {
+        top: 0px;
+        left: 30px;
+    }
+    .designers .women .text_hoto .scob2 {
+        top: 130px;
+        left: 360px;
+    }
+    .designers .women .text_hoto .strel1 {
+        top: 90px;
+        left: 255px;
+    }
+    .designers .women .text_hoto .strel2 {
+        top: 90px;
+        left: 305px;
     }
     footer .top {
         flex-direction: column;
@@ -148,21 +181,9 @@
         margin-left: 0;
         margin-bottom: 20px;
     }
-    .top_container .main_logo .block2 .main_logo_photo{
-        width: 567;
-        margin: 0;
-    }
     .top_container .main_logo .block2 .str {
-        top: 600px;
-        left: 420px;
-        width: 75px;
-        height: 70px;
-    }
-    .top_container .main_logo .block2 .main_logo_photo {
-        max-width: 475px;
-    }
-    .companis .name img {
-        width: 60px;
+        top: 20px;
+        left: 200px;
     }
     .box1 {
         display: flex;
@@ -178,17 +199,47 @@
         margin-bottom: 15px;
     }
     .box2 .items {
-        width: 400px;
+        max-width: 90%;
+    }
+    .box2 .items .item1,
+    .box2 .items .item2 {
+        width: 90%;
     }
     .box2 .items img {
-        width: 400px;
+        width: 100%;
+    }
+    .box2 .items .box_lorem {
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .box2 .items .box_lorem h3 {
+        margin: 0;
+    }
+    .box2 .items .box_lorem p {
+        margin: 10px 0px 20px 0px;
     }
     .box2 .items .down_but {
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .box2 .items .down_but .buts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box2 .items .down_but .buts .but1{
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .box2 .items .down_but .buts .but2 {
+        margin-left: 0px;
     }
     .box2 .items .down_but p {
         margin-top: 20px;
+        margin-right: 0px;
     }
     .advertising .photo .right img{
         width: 400px;
@@ -230,7 +281,7 @@
         margin: 50px 0;
     }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 476px) {
     .top_container .top {
         padding: 40px 50px 0;
     }
@@ -240,24 +291,8 @@
     .top_container .main_logo .block1 p {
         width: 90%;
     }
-    .top_container .main_logo .block2 .str {
-        top: 800px;
-        left: 300px;
-    }
-    .top_container .main_logo .block2 .main_logo_photo {
-        width: 375px;
-    }
     .companis .name img {
         width: 15%;
-    }
-    .box2 .items {
-        width: 350px;
-    }
-    .box2 .items img {
-        width: 350px;
-    }
-    .box2 .items .down_but .buts {
-        width: 300px;
     }
     .numbers .num .num1,
     .numbers .num .num2,
