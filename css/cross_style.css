@@ -230,3 +230,79 @@
         margin: 50px 0;
     }
 }
+@media screen and (max-width: 375px) {
+    .top_container .top {
+        padding: 40px 50px 0;
+    }
+    .top_container .main_logo .block1 h1  {
+        width: 90%;
+    }
+    .top_container .main_logo .block1 p {
+        width: 90%;
+    }
+    .top_container .main_logo .block2 .str {
+        top: 800px;
+        left: 300px;
+    }
+    .top_container .main_logo .block2 .main_logo_photo {
+        width: 375px;
+    }
+    .companis .name img {
+        width: 15%;
+    }
+    .box2 .items {
+        width: 350px;
+    }
+    .box2 .items img {
+        width: 350px;
+    }
+    .box2 .items .down_but .buts {
+        width: 300px;
+    }
+    .numbers .num .num1,
+    .numbers .num .num2,
+    .numbers .num .num3 {
+        width: 70px;
+    }
+    .numbers .num h1 {
+        font-size: 31px;
+    }
+    .numbers .num p {
+        text-align: center;
+        font-size: 16px;
+    }
+    .advertising .photo {
+        margin-top: 50px;
+    }
+    .advertising .photo .left h1 {
+        width: 340px;
+    }
+    .advertising .photo .right img{
+        width: 300px;
+    }
+    .designers .women .hoto img {
+        width: 300px;
+    }
+    .designers .women .text_hoto .text .p1 {
+        width: 300px;
+    }
+    .designers .women .text_hoto .scob2 {
+        top: 257px;
+        left: 218px;
+    }
+    .designers .women .text_hoto .strel1 {
+        top: 90px;
+        left: 115px;
+    }
+    .designers .women .text_hoto .strel2 {
+        top: 90px;
+        left: 168px;
+    }
+    footer form div {
+        width: 340px;
+    }
+    footer .line {
+        margin-left: 30px;
+        width: 80%;
+    }
+}
