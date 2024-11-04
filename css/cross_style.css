@@ -1,0 +1,232 @@
+/* >=1200
+992 - 1199
+768 - 991
+567 - 768
+460 - 576
+414 - 460
+375 - 414
+320 - 375
+*/
+@media screen and (max-width: 1440px) {
+    .top_container .main_logo .block2 .str {
+        top: 616px;
+        left: 600px;
+    }
+    .advertising .photo .left {
+        margin-right: 50px;
+    }
+    footer .line {
+        margin-left: 128px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .top_container .main_logo {
+        padding-bottom: 70px;
+    }
+    .top_container .main_logo .block2 .main_logo_photo{
+        max-width: 600px;
+        margin-top: 50px;
+    }
+    .box1 .text {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .box1 p {
+        margin-bottom: 10px;
+    }
+    .box2 .items {
+        display: block;
+        margin: 0 220px;
+    }
+    .box2 .item1 {
+        margin: 0px 0px 20px 0px;
+    }
+    .advertising .photo {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .advertising .photo .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .designers .women {
+        flex-direction: column;
+        align-items: center;
+    }
+    .designers .women .text_hoto {
+        text-align: center;
+    }
+    .designers .women .text_hoto h4 {
+        margin: 20px 0px 10px 0px;
+    }
+    .designers .women .text_hoto .img1 {
+        margin: 0px 0px 30px 0px;
+    }
+    .designers .women .text_hoto p {
+        margin: 0;
+    }
+    .designers .women .text_hoto .scob1 {
+        top: 3px;
+        left: 5px;
+    }
+    .designers .women .text_hoto .scob2 {
+        top: 98px;
+        left: 524px;
+    }
+    .designers .women .krug {
+        margin-left: 0px
+    }
+    .designers .women .text_hoto .strel1 {
+        top: 90px;
+        left: 278px;
+    }
+    .designers .women .text_hoto .strel2 {
+        top: 90px;
+        left: 332px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .top_container .top .menu a {
+        margin: 2px 10px;
+    }
+    .top_container .top .profile img {
+        margin: 0px 5px;
+    }
+    .top_container .main_logo .block1 h1 {
+        margin-top: 0;
+    }
+    .top_container .main_logo {
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top_container .main_logo .block2 .main_logo_photo {
+        margin-left: 100px;
+        max-width: 660px;
+    }
+    .top_container .main_logo .block2 .str {
+        top: 500px;
+        left: 620px;
+    }
+    .companis .name img {
+        width: 75px;
+    }
+    .box2 {
+        display: flex;
+        justify-content: center;
+    }
+    footer .top {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .top h2 {
+        margin-bottom: 20px;
+    }
+    .line {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .top_container .top .menu {
+        display: none;
+    }
+    .top_container .main_logo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .top_container .main_logo .block1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .top_container .main_logo .block2 .main_logo_photo{
+        width: 567;
+        margin: 0;
+    }
+    .top_container .main_logo .block2 .str {
+        top: 600px;
+        left: 420px;
+        width: 75px;
+        height: 70px;
+    }
+    .top_container .main_logo .block2 .main_logo_photo {
+        max-width: 475px;
+    }
+    .companis .name img {
+        width: 60px;
+    }
+    .box1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .box1 .text {
+        display: flex;
+        flex-direction: column;
+    }
+    .box1 p {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .box2 .items {
+        width: 400px;
+    }
+    .box2 .items img {
+        width: 400px;
+    }
+    .box2 .items .down_but {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .box2 .items .down_but p {
+        margin-top: 20px;
+    }
+    .advertising .photo .right img{
+        width: 400px;
+    }
+    .designers .women .hoto img{
+        width: 400px;
+    }
+    .designers .women .text_hoto .text .p1  {
+        width: 400px;
+    }
+    .designers .women .text_hoto .scob1 {
+        top: 3px;
+        left: 1px;
+    }
+    .designers .women .text_hoto .scob2 {
+        top: 165px;
+        left: 393px;
+    }
+    .designers .women .text_hoto .strel1 {
+        top: 93px;
+        left: 170px;
+    }
+    .designers .women .text_hoto .strel2 {
+        top: 93px;
+        left: 218px;
+    }
+    footer .top {
+        text-align: center;
+    }
+    .line {
+        width: 60%;
+    }
+    footer .down {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .down .donw_center {
+        margin: 50px 0;
+    }
+}
