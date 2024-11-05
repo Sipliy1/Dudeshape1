@@ -198,9 +198,6 @@
         margin-top: 20px;
         margin-bottom: 15px;
     }
-    .box2 .items {
-        max-width: 90%;
-    }
     .box2 .items .item1,
     .box2 .items .item2 {
         width: 90%;
@@ -291,6 +288,10 @@
     .top_container .main_logo .block1 p {
         width: 90%;
     }
+    .top_container .main_logo .block2 .str {
+        top: 29px;
+        left: 170px;
+    }
     .companis .name img {
         width: 15%;
     }
@@ -339,5 +340,17 @@
     footer .line {
         margin-left: 30px;
         width: 80%;
+    }
+}
+@media screen and (max-width: 413px) {
+    .box2 .items .box_lorem {
+        margin: 0;
+    }
+    .box2 .items {
+        width: 100%;
+    }
+    .top_container .main_logo .block2 .str {
+        top: 29px;
+        left: 110px;
     }
 }
