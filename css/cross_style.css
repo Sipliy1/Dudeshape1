@@ -366,6 +366,8 @@
     }
     .top_container .main_logo .block2 .str {
         top: 29px;
-        left: 110px;
+        left: 140px;
+        width: 100px;
+        height: 100px;
     }
 }
