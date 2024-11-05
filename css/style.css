@@ -174,11 +174,11 @@ body {
     width: 100%;
 }
 .box2 .items img {
-    max-width: 550px;
+    width: 600px;
 }
 .box2 .item1,
 .box2 .item2 {
-    max-width: 550px;
+    width: 600px;
     border: 1px solid #EEEEEE;
 }
 .box2 .items .box_lorem h3 {
