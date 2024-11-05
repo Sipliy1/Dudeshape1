@@ -33,7 +33,13 @@ body {
     font-weight: 400;
     line-height: 20px;
     color: #222222;
-    margin: 5px 20px;
+    padding: 5px 20px;
+
+}
+.top_container .top .menu a:hover {
+    color: #F9F6F5;
+    background-color: #222222;
+    border-radius: 10px;
 }
 .top_container .top .profile img {
     margin: 0 13px;
@@ -89,6 +95,7 @@ body {
     height: 32px;
     border: none;
     margin-right: 10px;
+    cursor: pointer;
 }
 .top_container .main_logo .block1 form button {
     border: none;
@@ -98,6 +105,7 @@ body {
     height: 56px;
     font-size: 18px;
     font-weight: 500px;
+    cursor: pointer;
 }
 .top_container .main_logo .block2 .main_logo_photo{
     max-width: 796px;
@@ -208,12 +216,14 @@ body {
     margin-left: 32px;
     background: #402F2C;
     color: #fff;
+    cursor: pointer;
 }
 .box2 .items .but2 {
     width: 162px;
     background: #fff;
     color: #402F2C;
     margin-left: 32px;
+    cursor: pointer;
 }
 .box2 .items .down_but p {
     max-width: 140px;
@@ -287,6 +297,7 @@ body {
     font-weight: 400;
     width: 148px;
     height: 56px;
+    cursor: pointer;
 }
 .advertising .photo .right img {
     max-width: 600px;
@@ -405,6 +416,7 @@ footer form div input[type='submit'] {
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
+    cursor: pointer;
 }
 .line {
     width: 82%;
@@ -444,7 +456,13 @@ footer form div input[type='submit'] {
     font-weight: 400;
     line-height: 20px;
     color: #222222;
-    padding-top:20px;
+    padding: 10px 5px ;
+}
+.down .donw_center a:hover {
+    color: #F9F6F5;
+    background-color: #222222;
+    border-radius: 10px;
+    text-align: center;
 }
 .down .down_right h4 {
     font-size: 20px;
