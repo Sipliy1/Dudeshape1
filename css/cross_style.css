@@ -139,9 +139,6 @@
         display: flex;
         justify-content: center;
     }
-    .advertising .photo .right img{
-        max-width: 100%;
-    }
     .women .text_hoto .text .p1{
         max-width: 575px;
     }
@@ -172,14 +169,6 @@
         width: 70%;
     }
 }
-/* @media screen and (max-width: 653px) {
-    .top_container .top {
-        padding: 40px 50px 0;
-    }
-    .top_container .top .menu a {
-        margin: 20px 0px;
-    }
-} */
 @media screen and (max-width: 576px) {
     .top_container .top .menu {
         display: none;
@@ -215,7 +204,7 @@
     }
     .box2 .items .item1,
     .box2 .items .item2 {
-        width: 90%;
+        width: 99%;
     }
     .box2 .items img {
         width: 100%;
@@ -329,7 +318,7 @@
         width: 340px;
     }
     .advertising .photo .right img{
-        width: 300px;
+        width:  300px;
     }
     .designers .women .hoto img {
         width: 300px;
@@ -361,13 +350,22 @@
     .box2 .items .box_lorem {
         margin: 0;
     }
-    .box2 .items {
+    /* .box2 .items {
         width: 100%;
+    } */
+    .box2 .items .box_lorem h3 {
+        font-size: 25px;
     }
     .top_container .main_logo .block2 .str {
         top: 29px;
         left: 140px;
         width: 100px;
         height: 100px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .box2 .items .down_but .buts .but1,
+    .box2 .items .down_but .buts .but2{
+        width: 60%;
     }
 }
